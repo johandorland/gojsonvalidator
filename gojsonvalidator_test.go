@@ -132,7 +132,7 @@ func TestAll(t *testing.T) {
 			main()
 
 			So(stdoutRedirecter.closeAndGet(),ShouldEqual,"")
-			So(stderrRedirecter.closeAndGet(),ShouldMatch,"(?s)^JSON is invalid")
+			So(stderrRedirecter.closeAndGet(),ShouldMatch,"(?s)^JSON is invalid.+Invalid type. Expected: number, given: string\n$")
 			So(exitCode,ShouldEqual,1)
 
 		})
