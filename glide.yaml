@@ -1,0 +1,9 @@
+package: gojsonvalidator
+import:
+- package: github.com/xeipuuv/gojsonschema
+testImport:
+- package: github.com/jacobsa/oglematchers
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.2
+  subpackages:
+  - convey
