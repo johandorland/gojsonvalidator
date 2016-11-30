@@ -17,9 +17,9 @@ Usage of gojsonvalidator:
 
 
 ## Installation
-
+To install **gojsonvalidator** use ```go get ```
 ```
-go get github.com/johandorland/gojsonvalidator
+$ go get github.com/johandorland/gojsonvalidator
 ```
 
 ## Dependencies
